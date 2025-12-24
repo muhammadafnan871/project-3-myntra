@@ -1,13 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
-body{
-    font-family: "Pinyon Script", cursive;
-    background-color: #f4f4f4;
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+.headerContainer {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 12px 16px 0 #F7F7F7;
+    padding: 7px 0;
+}
+
+.headerMiddle {
+    width: 1270px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    flex-basis: 4.4%;
+}
+
+.headerLogo img {
+    width: 100%;
+}
+
+.headerMenu {
+    flex-basis: 50%;
+}
+.headerMenu ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.headerMenu ul li {
+    font-size: 12px;
+  padding-left: 12px;
     color: #333;
-    text-align: center;
-    line-height: 1.6;
-    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.headerSearch{
+    background-color: #F5F5F6;
+    flex-basis: 29%;
+    padding: 10px ;
+    border-radius: 5px;
+}
+.headerSearchIcon{
+    padding-left: 5px;
+    color: #BFC0C9;
+    font-size: 15px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    color:#959D95;
+    padding-left: 15px;
+    width: 90%;
+    background-color: #F5F5F6;
+}
+.headerIcons{
+    flex-basis: 13%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerIconCommon{
+    font-size: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #A7A9B0; 
+   
+}
+.common{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
 }
