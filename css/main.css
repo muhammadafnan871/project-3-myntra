@@ -19,8 +19,8 @@ body {
 .headerContainer {
     width: 100%;
     background: #ffffff;
-    box-shadow: 0 12px 16px 0 #F7F7F7;
-    padding: 7px 0;
+    box-shadow: 0 3px 8px 0 #F7F7F7;
+    padding: 10px 0;
 }
 
 .headerMiddle {
@@ -29,10 +29,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2.5%;
 }
 
 .headerLogo {
-    flex-basis: 4.4%;
+    flex-basis: 4.9%;
 }
 
 .headerLogo img {
@@ -44,15 +45,19 @@ body {
 }
 .headerMenu ul {
     display: flex;
-    gap: 20px;
+    gap: 7%;
     align-items: center;
 }
 .headerMenu ul li {
     font-size: 12px;
-  padding-left: 12px;
+  /* padding-left: 26px; */
     color: #333;
     cursor: pointer;
     font-weight: bold;
+}
+.headerMenu ul li a{
+       letter-spacing: 1px;
+       color: #424657;
 }
 .headerSearch{
     background-color: #F5F5F6;
