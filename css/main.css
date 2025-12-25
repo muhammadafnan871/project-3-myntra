@@ -16,11 +16,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Header Section Start */
 .headerContainer {
     width: 100%;
     background: #ffffff;
     box-shadow: 0 3px 8px 0 #F7F7F7;
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 33;
 }
 
 .headerMiddle {
@@ -43,58 +47,201 @@ body {
 .headerMenu {
     flex-basis: 50%;
 }
+
 .headerMenu ul {
     display: flex;
     gap: 7%;
     align-items: center;
 }
+
 .headerMenu ul li {
     font-size: 12px;
-  /* padding-left: 26px; */
     color: #333;
     cursor: pointer;
     font-weight: bold;
 }
-.headerMenu ul li a{
-       letter-spacing: 1px;
-       color: #424657;
+
+.headerMenu ul li a {
+    letter-spacing: 1px;
+    color: #424657;
 }
-.headerSearch{
+
+.headerSearch {
     background-color: #F5F5F6;
     flex-basis: 29%;
-    padding: 10px ;
+    padding: 10px;
     border-radius: 5px;
 }
-.headerSearchIcon{
+
+.headerSearchIcon {
     padding-left: 5px;
     color: #BFC0C9;
     font-size: 15px;
 }
-.headerSearchInput{
+
+.headerSearchInput {
     border: none;
     outline: none;
-    color:#959D95;
+    color: #959D95;
     padding-left: 15px;
     width: 90%;
     background-color: #F5F5F6;
 }
-.headerIcons{
+
+.headerIcons {
     flex-basis: 13%;
     display: flex;
     justify-content: space-around;
 }
 
-.headerIconCommon{
+.headerIconCommon {
     font-size: 15px;
     padding: 5px;
     box-sizing: border-box;
-    color: #A7A9B0; 
-   
+    color: #A7A9B0;
+
 }
-.common{
+
+.common {
     text-align: justify;
     text-transform: capitalize;
     font-size: 12px;
     font-weight: 600;
     color: #333;
 }
+
+/* Header Section End */
+/* Flat Discount Section Start */
+.flatDiscount {
+    width: 100%;
+}
+
+.flatDiscountImage {
+    padding-top: 22px;
+    padding-bottom: 12px;
+    width: 1270px;
+    margin: auto;
+}
+
+.flatDiscountImage img {
+    width: 99%;
+}
+
+/* Flat DiscountSection End */
+/* Sale Banner Section Start */
+.saleBannerSection {
+    width: 100%;
+    position: relative;
+}
+
+.saleBannerMiddle {
+    width: 1270px;
+    margin: auto;
+    display: flex;
+}
+
+.saleBannerImage {
+    flex-basis: 100%;
+}
+
+.saleBannerImage img {
+
+    width: 99.80%;
+}
+
+/* Sale Banner Section End */
+/* <!-- Co-Power Section Start  --> */
+.coPowerSection {
+    width: 100%;
+}
+
+.coPowerSectionMiddle {
+    display: flex;
+    width: 1270px;
+    margin: auto;
+}
+
+.coPowerSectionImages {
+    flex-basis: 33.33%;
+}
+
+.coPowerSectionImages img {
+    width: 99.80%;
+    position: relative;
+    top: -4px;
+    left: 0px;
+}
+
+/* <!-- Co-Power Section End  --> */
+/* Bank Section Start */
+.bankSection {
+    width: 100%;
+}
+
+.bankSectionMiddleImage {
+    width: 1270px;
+    margin: auto;
+}
+
+.bankSectionMiddleImage img {
+    width: 99.85%;
+    position: relative;
+    top: -8px;
+}
+
+/* Bank Section End */
+/* Super Saver Section Start */
+.superSaverSection {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.superSaverSectionMiddleImage {
+    width: 1270px;
+    margin: auto;
+}
+
+.superSaverSectionMiddleImage {
+    width: 100%;
+}
+
+.superSaverSectionMiddleImage img {
+    width: 100%;
+
+}
+
+/* Super Saver Section End */
+/* <!-- Super Saver Sidlier Section Start --> */
+.superSaverSidlierSection {
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.superSaverSidlierSectionMiddleImage {
+    display: flex;
+    width: 1270px;
+    margin: auto;
+}
+
+.superSaverSidlierSectionMiddleImageItems {
+    flex-basis: 20%;
+}
+
+.superSaverSidlierSectionMiddleImageItems img {
+    width: 100%;
+}
+
+/* <!-- Super Saver Sidlier Section End --> */
+/* Price Crash Section Start */
+.priceCrashSection{
+    width: 100%;
+    padding-bottom: 12px;
+}
+.priceCrashSectionMiddleImage{
+    margin: auto;
+    width: 1270px;
+}
+.priceCrashSectionMiddleImage img{
+    width: 100%;
+}
+ /* Price Crash Section End */
