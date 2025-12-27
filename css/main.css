@@ -233,15 +233,122 @@ body {
 
 /* <!-- Super Saver Sidlier Section End --> */
 /* Price Crash Section Start */
-.priceCrashSection{
+.priceCrashSection {
     width: 100%;
     padding-bottom: 12px;
 }
-.priceCrashSectionMiddleImage{
+
+.priceCrashSectionMiddleImage {
     margin: auto;
     width: 1270px;
 }
-.priceCrashSectionMiddleImage img{
+
+.priceCrashSectionMiddleImage img {
     width: 100%;
 }
- /* Price Crash Section End */
+
+/* Price Crash Section End */
+/* <!-- Shop by Category Sidlier Section Start --> */
+.shopCategorySidlierSection {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.shopCategorySidlierSectionMiddleImage {
+    width: 1270px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shopCategorySidlierSectionMiddleImageItems {
+    flex-basis: 16%;
+}
+
+.shopCategorySidlierSectionMiddleImageItems img {
+    width: 100%;
+}
+
+/* <!-- Shop by Category Sidlier Section End --> */
+/* Footer Section Start  */
+.footerSection {
+    background-color: #fafbfc;
+    width: 100%;
+}
+
+.footerSectionMiddle {
+    width: 1170px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.footerLinksAndSocialIcon {
+    display: flex;
+    padding-left: 40px;
+    padding-bottom: 16px;
+}
+.footerLinksAndSocialIcon div{
+    flex-basis: 16%;
+}
+.footerLinksAndSocialIcon a{
+    color: #767885;
+    font-size: 12px;
+}
+.footerLinksAndSocialIcon h6{
+    padding-bottom: 20px;
+    padding-top: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.myntraApps{
+    color: #383839;
+}
+.footerLinksAndSocialIcon ul li{
+    padding-bottom: 7px;
+}
+.appsLinkAndIcon{
+    display: flex;
+    width: 42%;
+    gap: 10%;
+    padding-left: 3px;
+}
+.apps{
+    width: 120px;
+    height: 44px;
+}
+.socialIcons{
+    display: flex;
+    justify-content:start;
+    gap: 5%;
+    padding-left: 3px;
+}
+.socialIcons div{
+    flex-basis: 10%;
+}
+.socialIcons div img{
+    width: 100%;
+    height: 75%;
+}
+.returnPicture,.originalPicture{
+    display: flex;
+    padding-left: 73px;
+    gap: 10%;
+}
+.garenttyPicture{
+    width: 80px;
+    height: 50px;
+}
+.paragrah{
+    width: 240px;
+    color: #767885;
+}
+.paragrah span{
+    color: black;
+    font-weight: bold;
+}
+.lastFooterParagrah{
+    text-align: center;
+    padding: 20px 0;
+}
+/* Footer Section End  */
