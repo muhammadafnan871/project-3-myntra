@@ -1,0 +1,77 @@
+.kidsBanner {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.kidsBanner img {
+    width: 100%;
+}
+
+.favouriteBrands {
+    width: 100%;
+}
+
+.favouriteBrandsHeading,
+section h3 {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #3e4152;
+    text-transform: uppercase;
+}
+
+.favouriteBrandsLogos {
+    display: flex;
+    width: 100%;
+}
+
+.favouriteBrandsLogos div {
+    flex-basis: 11%;
+}
+
+.favouriteBrandsLogos img {
+    width: 100%;
+}
+
+.iconicsBrands {
+    flex-basis: 20% !important;
+}
+
+.iconicsBrands img {
+    width: 100%;
+}
+
+.fashionImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fashionImages div {
+    flex-basis: 20%;
+}
+
+.fashionImages img {
+    width: 100%;
+}
+
+.explorMoreImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+.explorMoreImages div{
+    flex-basis: 50%;
+}
+.explorMoreImages img, .budgetBuy{
+    width: 100%;
+}
+.budgetBuyImages{
+    display: flex;
+}
+.budgetBuyImages div{
+    flex-basis: 19%;
+}
+.budgetBuyImages img{
+    width: 100%;
+}
